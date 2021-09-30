@@ -166,7 +166,7 @@ def addBook(catalog, book):
     for author in authors:
         addBookAuthor(catalog, author.strip(), book)
     addBookYear(catalog, book)
-
+   
 
 def addBookYear(catalog, book):
     """
